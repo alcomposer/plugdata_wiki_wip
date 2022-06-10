@@ -2,6 +2,8 @@ Welcome to the PlugData wiki!
 
 Soon I will create a wiki, it should at least contain the following:
 
+- Installation instructions
+- Compilation instructions
 - Link to Pd documentation
 - UI overview, what does each button do?
 - Managing automation
