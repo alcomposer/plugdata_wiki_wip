@@ -8,7 +8,9 @@ Download the latest installer from the [Releases](https://github.com/timothyscho
 
 ## Linux
 For Linux users, I'd recommend using the OBS packages for most distros, or the AUR package on Arch.
+
 OBS packages (maintained by @KottV): https://software.opensuse.org//download.html?project=home%3Aplugdata&package=plugdata
+
 AUR packages (maintained by @aik2mlj): https://aur.archlinux.org/packages/plugdata-git
 
 If your distro is not supported, see [Building from Source](Building-from-Source).
