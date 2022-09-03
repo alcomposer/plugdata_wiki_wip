@@ -1,4 +1,3 @@
-# Installation
 Installing PlugData is very simple, but below I've listed the recommended method for each platform. If you are upgrading from an older version, read the release description carefully: sometimes upgrading requires a bit of extra work. Going into the future, I hope this won't be necessary anymore.
 
 ## Mac
