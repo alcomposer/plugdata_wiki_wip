@@ -2,10 +2,10 @@
 
 <img width="249" alt="Screenshot 2022-09-03 at 17 06 06" src="https://user-images.githubusercontent.com/44585538/188276594-98e281ba-3676-4976-bac0-67c0f6dc5de0.png">
 
-The [adc~] and [dac~] objects are used to handle audio IO, both in the standalone and the plugin version. If you are using the standalone, and you don't get any audio IO, check your audio settings in the settings panel. Also, make sure DSP is enabled, and the master volume is on.
-
+The [adc~] and [dac~] objects are used to handle audio IO, both in the standalone and the plugin version. Make sure DSP is enabled, and the master volume is on.
 <img width="400" alt="Screenshot 2022-09-03 at 17 09 39" src="https://user-images.githubusercontent.com/44585538/188276858-ef84c757-0054-415c-9aca-9d8f85bd8a12.png">
 
+If you are using the standalone and you don't get any audio IO, check your audio settings in the settings panel.
 
 <img width="500" alt="Screenshot 2022-09-02 at 14 09 45" src="https://user-images.githubusercontent.com/44585538/188276795-1308f265-3b2a-4402-ba45-0a63baf45cf7.png">
 
