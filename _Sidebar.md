@@ -3,5 +3,5 @@
 *  [Building from source](Building-from-source)	
 
 # Use guide
-* [UI Overview](UI-Overview)
-* Basic operation
+* [UI overview](UI-Overview)
+* [Basic operation](Basic-operation)
