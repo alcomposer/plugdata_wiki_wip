@@ -1,7 +1,7 @@
 ## plugdata UI overview:
 ![plugdata main window](screenshots/plugdata_main_interface_markup.png)
 
-1. Main menu (including save / load) [see](#3-main-menu)
+1. Main menu (including save / load) [see](#1-main-menu)
 2. Undo / Redo action on current canvas
 3. Add object menu
 4. Mode selector: Edit / Run / Presentation
