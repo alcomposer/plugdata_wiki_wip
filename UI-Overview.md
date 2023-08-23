@@ -155,5 +155,5 @@ The option **Grid** allows the objects to snap to the canvas grid. The resolutio
 
 ![oversampling menu](screenshots/oversampling_selector.png)
 
-This menu allows the user to change the oversampling factor. Oversampling will make plugdata calculate more samples per second. For example, if plugdata was set to 44100khz sample rate, 2x would calculate 88200khz. This improves the quality of some objects, such as patches that include distortion, or non-bandlimited oscillators.
+This menu allows the user to change the oversampling factor. Oversampling will make plugdata calculate more samples per second. For example, if plugdata was set to 44.1khz sample rate, 2x would calculate 88.2khz. This improves the quality of some objects, such as patches that include distortion, or non-bandlimited oscillators. :pushpin: Oversampling does not effect the output sample rate, only the internal processing.
 
