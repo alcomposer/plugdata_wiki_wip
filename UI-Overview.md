@@ -17,7 +17,7 @@
 14. Overlay selector menu [see overlay selector](#14-overlay-selector-menu)
 15. Canvas object snapping menu [see object snapping](#15-canvas-object-snapping-menu)
 16. MIDI in/out activity indicator
-17. Oversampling selector
+17. Oversampling selector [see oversampling menu](#17-oversampling-menu)
 18. Main volume control
 19. Audio on/off (blue when on)
 20. Limiter (protect output from high volume)
@@ -134,5 +134,9 @@ This menu controls the way objects on the canvas snap to each other. The user ca
 
 The option **Grid** allows the objects to snap to the canvas grid. The resolution of the canvas grid can also be changed from 5-30 pixels. Changing this value will also update the grid on the canvas, to reflect the size of the grid. :pushpin: this setting will change the resolution of all open patches.
 
+### 17) Oversampling menu:
 
+![oversampling menu](screenshots/oversampling_selector.png)
+
+This menu allows the user to change the oversampling factor. Oversampling will make plugdata calculate more samples per second. For example, if plugdata was set to 44100khz sample rate, 2x would calculate 88200khz. This improves the quality of some objects, such as patches that include distortion, or non-bandlimited oscillators.
 
