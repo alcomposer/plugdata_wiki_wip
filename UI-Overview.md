@@ -11,7 +11,7 @@
 8. Canvas / Patch tab
 9. Palette selector
 10. Canvas work area
-11. Side panel 
+11. Side panel
 12. Center canvas view
 13. Zoom to fit all objects into view
 14. Overlay selector menu
@@ -25,7 +25,7 @@
 ### 1) Main menu:
 ![main menu](screenshots/main_menu.png)
 
-**New patch** Create new .pd patch  
+**New patch** Create new .pd patch
 
 **Open patch...** Select .pd patch to open
 
@@ -88,7 +88,7 @@ For each overlay item, they can be turned on/off for the mode that is currently 
 
 There is a universal control mode, shown as an eye icon. This allows you to turn on that item regardless of which mode the canvas is in.
 
-:note: The eye icon is able to be toggled **on** in the bottom menu (between Zoom to fit all, and Snapping options. :important: Turning **on/off** the eye icon will override any other mode displays. Even if it is on for Edit & Run mode, if the eye icon is selected for that item, turning it off in the bottom menu will disable it.
+:pushpin: The eye icon is able to be toggled **on** in the bottom menu (between Zoom to fit all, and Snapping options. :warning: Turning **on/off** the eye icon will override any other mode displays. Even if it is on for Edit & Run mode, if the eye icon is selected for that item, turning it off in the bottom menu will disable it.
 
 ### 15) Canvas object snapping menu:
 
@@ -96,7 +96,7 @@ There is a universal control mode, shown as an eye icon. This allows you to turn
 
 This menu controls the way objects on the canvas snap to each other. The user can select from snapping to **Edges** or **Centers** of other objects on the canvas.
 
-The option **Grid** allows the objects to snap to the canvas grid. The resolution of the canvas grid can also be changed from 5-30 pixels. Changing this value will also update the grid on the canvas, to reflect the size of the grid. :note: this setting will change the resolution of all open patches.
+The option **Grid** allows the objects to snap to the canvas grid. The resolution of the canvas grid can also be changed from 5-30 pixels. Changing this value will also update the grid on the canvas, to reflect the size of the grid. :pushpin: this setting will change the resolution of all open patches.
 
 
 
