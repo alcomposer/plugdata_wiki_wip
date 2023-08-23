@@ -1,7 +1,7 @@
 ## plugdata UI overview:
 ![plugdata main window](screenshots/plugdata_main_interface_markup.png)
 
-####Toolbar
+    #### Toolbar
 
 1. Main menu (including save / load) [see main menu](#1-main-menu)
 2. Undo / Redo action on current canvas
