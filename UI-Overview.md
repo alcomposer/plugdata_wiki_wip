@@ -70,7 +70,7 @@ This is most useful when plugdata runs as a plugin in a host (such as a Digital 
 
 Parameters are added with a default name, *param1,2,3 etc* which can be changed by double-clicking on the name area. :warning: Changing the name will not change the name at this point of any parameters already added to the canvas.
 
-Parameters can added to any canvas by click and dragging over the name area, and dropping into a canavs of your choice.
+Parameters can be added to any canvas by click and dragging over the name area, and dropping into a canavs of your choice.
 
 Clicking the flippy triangle will expose the parameter settings, such as range and mode.
 
