@@ -1,17 +1,34 @@
 ## plugdata UI overview:
 ![plugdata main window](screenshots/plugdata_main_interface_markup.png)
 
+####Toolbar
+
 1. Main menu (including save / load) [see main menu](#1-main-menu)
 2. Undo / Redo action on current canvas
 3. Add object menu [see object menu](#3-add-object-menu)
 4. Mode selector: Edit / Run / Presentation
 5. Activate plugin mode
 6. Close right panel
+
+    #### Tabs
+
 7. Create new patch (tab)
 8. Canvas / Patch tab
+
+    #### Palettes
+
 9. Palette selector [see palette panel](#9-palette-panel)
+
+    #### Canvas
+
 10. Canvas work area
+
+    #### Right panel
+
 11. Side panel [see side panel](#11-side-panel)
+
+    #### Statusbar
+
 12. Center canvas view
 13. Zoom to fit all objects into view
 14. Overlay selector menu [see overlay selector](#14-overlay-selector-menu)
