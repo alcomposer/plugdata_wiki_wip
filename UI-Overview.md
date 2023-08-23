@@ -9,7 +9,7 @@
 6. Close right panel
 7. Create new patch (tab)
 8. Canvas / Patch tab
-9. Palette selector
+9. Palette selector [see palette panel](#9-palette-panel)
 10. Canvas work area
 11. Side panel [see side panel](#11-side-panel)
 12. Center canvas view
@@ -83,6 +83,22 @@ Parameters can be added to any canvas by click and dragging over the name area, 
 Clicking the flippy triangle will expose the parameter settings, such as range and mode.
 
 Hovering over the parameter will display a reorder and close icon. Click and drag the reorder icon to reposition the parameter in the list. Click close to remove the parameter from the list.
+
+### 9) Palette panel:
+
+![palettes](screenshots/palette_panel.png)
+
+The palette panel can be shown by clicking on any palette category. To hide the panel, simply click on the active category. In the above screenshot, that would be **Effects**.
+
+To use palettes, simply select which category you want to add from, and then drag and drop the item from that category to the canvas.
+
+A user can add as many items to a palette category. To do this first select the objects on the canvas you want to turn into a palette item, and copy them (ctrl+c Windows/Linux, Command+C (⌘+C) macOS).
+
+Then click **Add from clipboard** below the list. This will add the current clipboard contents into the palette. It is helpful to name the new palette item, to allow easy identification in future.
+
+Palette items can be reordered by hovering over an item, and dragging to a new position in the list.
+
+To delete a palette item, again hover over the item, and a close icon will display to the right. :warning: clicking this currently will delete the item.
 
 ### 14) Overlay selector menu:
 
