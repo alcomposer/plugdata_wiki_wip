@@ -23,6 +23,12 @@
 20. Limiter (protect output from high volume)
 
 ### 1) Main menu:
+The main menu allows the user to do file related operations, as well as control and access plugdata settings.
+
+The first section shows plugdata's theme selector, in the example below, the default light theme is selected. Themes can be changed, saved, and restored in the **Themes** section of the **Settings...** menu.
+
+Below the theme selector is a canvas zoom display / control. Use this to change the scale of the currently selected canvas. When working on different patches, the zoom control will reflect the current zoom of the active patch.
+
 ![main menu](screenshots/main_menu.png)
 
 **New patch** Create new .pd patch
