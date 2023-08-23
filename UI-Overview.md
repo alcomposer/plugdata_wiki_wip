@@ -65,10 +65,10 @@ Click and drag any object from this menu into the canvas. This menu shows a smal
 
 ![add parameter panel](screenshots/add_parameter_panel.png)
 
-**Add new parameter** allows you to add new parameter automation to plugdata.  
-This is most useful when plugdata runs as a plugin in a host (such as a Digital Audio Workstation DAW).  
+**Add new parameter** allows you to add new parameter automation to plugdata.
+This is most useful when plugdata runs as a plugin in a host (such as a Digital Audio Workstation DAW).
 
-Parameters are added with a default name, *param1,2,3 etc* which can be changed by double-clicking on the name area. [!WARNING] Changing the name will not change the name at this point of any parameters already added to the canvas. 
+Parameters are added with a default name, *param1,2,3 etc* which can be changed by double-clicking on the name area. :warning: Changing the name will not change the name at this point of any parameters already added to the canvas.
 
 Parameters can added to any canvas by click and dragging over the name area, and dropping into a canavs of your choice.
 
@@ -88,11 +88,15 @@ For each overlay item, they can be turned on/off for the mode that is currently 
 
 There is a universal control mode, shown as an eye icon. This allows you to turn on that item regardless of which mode the canvas is in.
 
-[!NOTE] The eye icon is able to be toggled **on** in the bottom menu (between Zoom to fit all, and Snapping options. [!IMPORTANT] Turning **on/off** the eye icon will override any other mode displays. Even if it is on for Edit & Run mode, if the eye icon is selected for that item, turning it off in the bottom menu will disable it.
+:note: The eye icon is able to be toggled **on** in the bottom menu (between Zoom to fit all, and Snapping options. :important: Turning **on/off** the eye icon will override any other mode displays. Even if it is on for Edit & Run mode, if the eye icon is selected for that item, turning it off in the bottom menu will disable it.
 
 ### 15) Canvas object snapping menu:
 
 ![snapping menu](screenshots/snapping_menu.png)
+
+This menu controls the way objects on the canvas snap to each other. The user can select from snapping to **Edges** or **Centers** of other objects on the canvas.
+
+The option **Grid** allows the objects to snap to the canvas grid. The resolution of the canvas grid can also be changed from 5-30 pixels. Changing this value will also update the grid on the canvas, to reflect the size of the grid. :note: this setting will change the resolution of all open patches.
 
 
 
