@@ -1,9 +1,9 @@
 ## plugdata UI overview:
 ![plugdata main window](screenshots/plugdata_main_interface_markup.png)
 
-1. Main menu (including save / load) [see](#1-main-menu)
+1. Main menu (including save / load) [see main menu](#1-main-menu)
 2. Undo / Redo action on current canvas
-3. Add object menu
+3. Add object menu [see object menu](#3-add-object-menu)
 4. Mode selector: Edit / Run / Presentation
 5. Activate plugin mode
 6. Close right panel
@@ -11,11 +11,11 @@
 8. Canvas / Patch tab
 9. Palette selector
 10. Canvas work area
-11. Side panel
+11. Side panel [see side panel](#11-side-panel)
 12. Center canvas view
 13. Zoom to fit all objects into view
-14. Overlay selector menu
-15. Canvas object snapping menu
+14. Overlay selector menu [see overlay selector](#14-overlay-selector-menu)
+15. Canvas object snapping menu [see object snapping](#15-canvas-object-snapping-menu)
 16. MIDI in/out activity indicator
 17. Oversampling selector
 18. Main volume control
@@ -61,7 +61,15 @@ Click and drag any object from this menu into the canvas. This menu shows a smal
 
 **Category selector: UI, General, MIDI, IO, Osc~ etc...** Allows the user to change the objects that are displayed for drag and drop using easy to understand categories.
 
-### 11) Add parameter panel:
+### 11) Side panel:
+
+The side panel allows the user to show 4 different tabs:
+**Console** shows error messages from PD, and also the output of `[print]` object
+**Documentation Browser** will display by default the documentation and example directory. A user can also change what file path is dispayed here.
+**Add automation parameters** a custom list of sliders that are linked to both a `[param]` canvas item of the same name, and when used as a plugin the DAW automation controller.
+**Search** Allows easy searching of all objects in the currently selected patch. Use this to find any text / object that is in the current patch.
+
+### Add automation parameters:
 
 ![add parameter panel](screenshots/add_parameter_panel.png)
 
