@@ -94,7 +94,7 @@ Clicking the flippy triangle will expose the parameter settings, such as range a
 
 Hovering over the parameter will display a reorder and close icon. Click and drag the reorder icon to reposition the parameter in the list. Click close to remove the parameter from the list.
 
-![automation walkthrough](screenshots/automation_parameter_walkthrough.gif)
+![automation walkthrough](screenshots/automation_parameter_walkthrough_2.gif)
 
 ### 9) Palette panel:
 
