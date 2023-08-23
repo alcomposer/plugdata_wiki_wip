@@ -70,9 +70,13 @@ Click and drag any object from this menu into the canvas. This menu shows a smal
 ### 11) Side panel:
 
 The side panel allows the user to show 4 different tabs:
+
 **Console** shows error messages from PD, and also the output of `[print]` object
+
 **Documentation Browser** will display by default the documentation and example directory. A user can also change what file path is dispayed here.
+
 **Automation parameters** a custom list of sliders that are linked to both a `[param]` canvas item of the same name, and when used as a plugin the DAW automation controller.
+
 **Search** Allows easy searching of all objects in the currently selected patch. Use this to find any text / object that is in the current patch.
 
 ### Automation parameters:
