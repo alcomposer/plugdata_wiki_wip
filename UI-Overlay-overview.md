@@ -5,8 +5,6 @@
 The overlay menu allows users to show / hide graphic elements on the canvas.
 This menu is divided into 4 rows. Each row relates to the item to the right, and each column shows if the overlay is turned on for that mode. Eg: a grey pencil icon denotes that that overlay is turned off for edit mode. Conversly a lit blue icon represents that the overlay is turned on when that mode is active:
 
-![plugdata overlay menu](screenshots/overlay_selector_menu.png)
-
 #### Canvas
 1) [Origin](#1-canvas---origin)
 
