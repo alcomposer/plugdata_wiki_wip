@@ -54,6 +54,6 @@ Shows an arrow head in the direction of data flow. This overlay allows the user 
 ![plugdata overlay origin](screenshots/plugdata_overlay_direction.png)
 
 #### 6) Connection - Order
-When an outlet is connected to more than one objects inlet, the message is sent one at a time. The order of which they are sent is controlled by the order of the cable in the patch. This overlay allows the user to see the order in which the messages are received. It can be helpful to track down bugs in patches. :pushpin: This overlay does not allow editing of the order, it is only for display. :warning: It is recommended to use `[trigger]` to control message order.
+When an outlet is connected to more than one objects inlet, the messages are sent one at a time. The order of which they are sent is the order in which the connections were added to the patch. This overlay allows the user to see that order, which may be useful to track down bugs in patches. :pushpin: This overlay does not allow editing of the order, it is display only. :warning: It is recommended to use `[trigger]` to control message order.
 
 ![plugdata overlay origin](screenshots/plugdata_overlay_order.png)
