@@ -18,7 +18,7 @@ This menu is divided into 4 rows. Each row relates to the item to the right, and
 #### Connection
 5) [Directon](#5-connection---direction)
 
-6) [Order](#6-connection--direction)
+6) [Order](#6-connection---direction)
 
 The eye icon in the status bar turns on / off an additional mode. This is useful if you want to create an overlay collection that you want to show regardless of what mode the canvas is in:
 
