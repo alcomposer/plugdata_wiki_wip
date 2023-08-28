@@ -3,7 +3,7 @@
 ### Overlays:
 
 The overlay menu allows users to show / hide graphic elements on the canvas.
-This menu is divided into 4 rows. Each row relates to the item to the right, and each column shows if the overlay is turned on for that mode. Eg: a grey pencil icon denotes that that overlay is turned off for edit mode. Conversly a lit blue icon represents that the overlay is turned on, here Origin overlay is shown when Run mode is active:
+This menu is divided into 4 rows. Each row relates to the item to the right, and each column shows if the overlay is turned on for that mode. Eg: a grey pencil icon denotes that that overlay is turned off for edit mode. Conversely a lit blue icon represents that the overlay is turned on, here Origin overlay is shown when Run mode is active:
 
 ![plugdata overlay example](screenshots/plugdata_overlay_origin_example.png)
 
@@ -44,7 +44,7 @@ plugdata can show the index of the objects inside your patch. This overlay allow
 ![plugdata overlay origin](screenshots/plugdata_overlay_index.png)
 
 #### 4) Object - Activity
-When messages are sent between objects, plugdata can visualise the activity by glowing the active objects. This allows the user to see if an object is outputing data when they expect it to. :pushpin: Currently, activity overlay will only show messages between objects that are connected. :warning: This overlay can put extra strain on your CPU, and as such is not recommended to use during performance. :pushpin: Currently this overlay will only show activity of messages, not signal.
+When messages are sent between objects, plugdata can visualise the activity by glowing the active objects. This allows the user to see if an object is outputting data when they expect it to. :pushpin: Currently, activity overlay will only show messages between objects that are connected. :warning: This overlay can put extra strain on your CPU, and as such is not recommended to use during performance. :pushpin: Currently this overlay will only show activity of messages, not signal.
 
 ![plugdata overlay origin](screenshots/plugdata_overlay_activity.png)
 
@@ -54,6 +54,6 @@ Shows an arrow head in the direction of data flow. This overlay allows the user 
 ![plugdata overlay origin](screenshots/plugdata_overlay_direction.png)
 
 #### 6) Connection - Order
-When an outlet is connected to more than one objects inlet, the message is sent one at a time. The order of which they are sent is controlled by the order of the cable in the patch. This overlay allows the user to see the order in which the messages are recieved. It can be helpful to track down bugs in patches. :pushpin: This overlay does not allow editing of the order, it is only for display. :warning: It is recommened to use `[trigger]` to control message order.
+When an outlet is connected to more than one objects inlet, the message is sent one at a time. The order of which they are sent is controlled by the order of the cable in the patch. This overlay allows the user to see the order in which the messages are received. It can be helpful to track down bugs in patches. :pushpin: This overlay does not allow editing of the order, it is only for display. :warning: It is recommended to use `[trigger]` to control message order.
 
 ![plugdata overlay origin](screenshots/plugdata_overlay_order.png)
