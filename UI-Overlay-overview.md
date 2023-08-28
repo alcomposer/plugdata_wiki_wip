@@ -2,10 +2,23 @@
 ![plugdata overlay menu](screenshots/plugdata_overlay_overview.png)
 ### Overlays:
 
-The overlay menu allows the user to show / hide graphic elements on the canvas.
+The overlay menu allows users to show / hide graphic elements on the canvas.
 This menu is divided into 4 rows. Each row relates to the item to the right, and each column shows if the overlay is turned on for that mode. Eg: a grey pencil icon denotes that that overlay is turned off for edit mode. Conversly a lit blue icon represents that the overlay is turned on when that mode is active:
 
 ![plugdata overlay menu](screenshots/overlay_selector_menu.png)
+
+#### Canvas
+1) [Origin](#1-canvas---origin)
+
+2) [Border](#2-canvas---border)
+#### Object
+3) [Index](#3-object---index)
+
+4) [Activity](#4-object---activity)
+#### Connection
+5) [Directon](#5-connection---direction)
+
+6) [Order](#6-connection--direction)
 
 The eye icon in the status bar turns on / off an additional mode. This is useful if you want to create an overlay collection that you want to show regardless of what mode the canvas is in:
 
@@ -14,9 +27,6 @@ The eye icon in the status bar turns on / off an additional mode. This is useful
 All overlays can be turned on / off independently, or shown all at once, depending on the selected mode, or overlay settings:
 
 ![plugdata overlay all](screenshots/plugdata_overlay_all.png)
-
-
-### The overlays are:
 
 #### 1) Canvas - Origin
 This overlay allows the user to show where the edge of the puredata canvas is, crossing through the 0,0 point of the canvas. As plugdata uses an infinite canvas to display patches, you are able to move and place objects anywhere. It is useful to see where the top-left of the canvas is, depending on your patching style. :pushpin: when sharing patches with PD-Vanilla, the top-left origin point will be identical to that in PD-Vanilla. However, PD-Vanilla may change the origin point if objects are moved around inside PD-Vanilla editor.
