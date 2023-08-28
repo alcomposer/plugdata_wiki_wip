@@ -143,6 +143,8 @@ There is a universal control mode, shown as an eye icon. This allows you to turn
 
 :pushpin: The eye icon is able to be toggled **on** in the bottom menu (between Zoom to fit all, and Snapping options. :warning: Turning **on/off** the eye icon will override any other mode displays. Even if it is on for Edit & Run mode, if the eye icon is selected for that item, turning it off in the bottom menu will disable it.
 
+For more detailed outline, [see](UI-Overlay-overview.md)
+
 ### 15) Canvas object snapping menu:
 
 ![snapping menu](screenshots/snapping_menu.png)
