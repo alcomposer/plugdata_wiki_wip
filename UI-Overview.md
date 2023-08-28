@@ -84,6 +84,22 @@ Click and drag any object from this menu into the canvas. This menu shows a smal
 
 **Category selector: UI, General, MIDI, IO, Osc~ etc...** Allows the user to change the objects that are displayed for drag and drop using easy to understand categories.
 
+
+### 9) Palette panel:
+
+![palettes](screenshots/palette_panel.png)
+
+The palette panel can be shown by clicking on any palette category. To hide the panel, simply click on the active category. In the above screenshot, that would be **Effects**.
+
+To use palettes, simply select which category you want to add from, and then drag and drop the item from that category to the canvas.
+
+A user can add as many items to a palette category. To do this first select the objects on the canvas you want to turn into a palette item, and copy them (ctrl+c Windows/Linux, Command+C (⌘+C) macOS).
+
+Then click **Add from clipboard** below the list. This will add the current clipboard contents into the palette. It is helpful to name the new palette item, to allow easy identification in future.
+
+Palette items can be reordered by hovering over an item, and dragging to a new position in the list.
+
+To delete a palette item, again hover over the item, and a close icon will display to the right. :warning: clicking this currently will delete the item.
 ### 11) Side panel:
 
 The side panel allows the user to show 4 different tabs:
@@ -112,22 +128,6 @@ Clicking the flippy triangle will expose the parameter settings, such as range a
 Hovering over the parameter will display a reorder and close icon. Click and drag the reorder icon to reposition the parameter in the list. Click close to remove the parameter from the list.
 
 ![automation walkthrough](screenshots/automation_parameter_walkthrough_2.gif)
-
-### 9) Palette panel:
-
-![palettes](screenshots/palette_panel.png)
-
-The palette panel can be shown by clicking on any palette category. To hide the panel, simply click on the active category. In the above screenshot, that would be **Effects**.
-
-To use palettes, simply select which category you want to add from, and then drag and drop the item from that category to the canvas.
-
-A user can add as many items to a palette category. To do this first select the objects on the canvas you want to turn into a palette item, and copy them (ctrl+c Windows/Linux, Command+C (⌘+C) macOS).
-
-Then click **Add from clipboard** below the list. This will add the current clipboard contents into the palette. It is helpful to name the new palette item, to allow easy identification in future.
-
-Palette items can be reordered by hovering over an item, and dragging to a new position in the list.
-
-To delete a palette item, again hover over the item, and a close icon will display to the right. :warning: clicking this currently will delete the item.
 
 ### 14) Overlay selector menu:
 
