@@ -49,7 +49,7 @@ When messages are sent between objects, plugdata can visualise the activity by g
 ![plugdata overlay origin](screenshots/plugdata_overlay_activity.png)
 
 #### 5) Connection - Direction
-Shows an arrow head in the direction of data flow. Objects can be placed anywhere on the patch, and can end above the object that is sending data / signal. This overlay allows the user to see quickly where the cable is sending to.
+Shows an arrow head in the direction of data flow. This overlay allows the user to quickly see the direction of the cable. In plugdata, objects can be placed anywhere on the canvas, in some situations the receiving object can be placed higher than the sending object.
 
 ![plugdata overlay origin](screenshots/plugdata_overlay_direction.png)
 
