@@ -105,7 +105,7 @@ To delete a palette item, again hover over the item, and a close icon will displ
 
 plugdata uses an infinite canvas to dispaly PD patches. The coordinate space is  centered on (0,0) origin which is the top-left of the PD-Vanilla patch window, extending negative X to the left, positive X to the right, with up being negative Y. This is because unlike PD-Vanilla, plugdata uses a tabbed interface which means the working canvas area always needs to fill the window area.
 
-The display of both origin and border dashed lines are canvas overlays. See [overlays](#14-overlay-selector-menu) for more infoformation on how to show / hide them.
+The display of both origin and border dashed lines are canvas overlays. See [overlays](#14-overlay-selector-menu) for more info on how to show / hide them.
 
 ![canvas coordinate space](screenshots/canvas-overview.png)
 
