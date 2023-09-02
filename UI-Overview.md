@@ -117,7 +117,7 @@ When plugdata is in plugin mode, the border area is used to define the width and
 
 ![plugin mode pd vanilla](screenshots/plugdata-plugin-mode-pd-vanilla.png)
 
-:pushpin: Note that when plugdata is in plugin mode, there are no scrollbars, and the rest of the plugdata editor is hidden. Plugin mode is locked to the size of the PD-Vanilla window border area. And allows the plugin user to concentrate concentrate only on the plugins UI.
+:pushpin: Note that when plugdata is in plugin mode, there are no scrollbars, and the rest of the plugdata editor is hidden. Plugin mode is locked to the size of the PD-Vanilla window border area. And allows the plugin user to concentrate only on the plugins UI.
 
 ### 11) Side panel:
 
