@@ -154,11 +154,11 @@ Hovering over the parameter will display a reorder and close icon. Click and dra
 
 ![overlay selector menu](screenshots/overlay_selector_menu.png)
 
-This menu allows the user to turn on and off different overlays in the canvas.
+This menu allows the user to turn on and off different infomation graphic elements on the canvas.
 Such as showing the canavs origin, or canvas border.
-The menu is divided into different section, which each overlay relates to. Eg: Origin and Border are displays which relate to the canvas.
+The menu is divided into different sections, which each overlay relates to. Eg: Origin and Border are displays which relate to the canvas.
 
-For each overlay item, they can be turned on/off for the mode that is currently selected. If the canvas is in edit mode (the pencil icon) then turning on the Origin's pencil icon will show the origin overlay in edit mode.
+Each overlay item can be enabled for the currently selected mode. If the canvas is in edit mode (the pencil icon) then turning on the Origin's pencil icon will show the origin overlay in edit mode.
 
 There is a universal control mode, shown as an eye icon. This allows you to turn on that item regardless of which mode the canvas is in.
 
