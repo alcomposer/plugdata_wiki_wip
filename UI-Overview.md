@@ -3,9 +3,9 @@
 
 #### Toolbar
 
-1. Main menu (including save / load) [see main menu](#1-main-menu)
+1. [Main menu (including save / load)](#1-main-menu)
 2. Undo / Redo action on current canvas
-3. Add object menu [see object menu](#3-add-object-menu)
+3. [Add object menu](#3-add-object-menu)
 4. Mode selector: Edit / Run / Presentation
 5. Activate plugin mode
 6. Close right panel
@@ -17,24 +17,24 @@
 
     #### Palettes
 
-9. Palette selector [see palette panel](#9-palette-panel)
+9. [Palette selector](#9-palette-panel)
 
     #### Canvas
 
-10. Canvas work area
+10. [Canvas work area](#10-canvas)
 
     #### Right panel
 
-11. Side panel [see side panel](#11-side-panel)
+11. [Side panel](#11-side-panel)
 
     #### Statusbar
 
 12. Center canvas view
 13. Zoom to fit all objects into view
-14. Overlay selector menu [see overlay selector](#14-overlay-selector-menu)
-15. Canvas object snapping menu [see object snapping](#15-canvas-object-snapping-menu)
+14. [Overlay selector menu](#14-overlay-selector-menu)
+15. [Canvas object snapping menu](#15-canvas-object-snapping-menu)
 16. MIDI in/out activity indicator
-17. Oversampling selector [see oversampling menu](#17-oversampling-menu)
+17. [Oversampling selector](#17-oversampling-menu)
 18. Main volume control
 19. Audio on/off (blue when on)
 20. Limiter (protect output from high volume)
@@ -100,6 +100,25 @@ Then click **Add from clipboard** below the list. This will add the current clip
 Palette items can be reordered by hovering over an item, and dragging to a new position in the list.
 
 To delete a palette item, again hover over the item, and a close icon will display to the right. :warning: clicking this currently will delete the item.
+
+### 10) Canvas:
+
+plugdata uses an infinite canvas to dispaly PD patches. The coordinate space is  centered on (0,0) origin, extending negative X to the left, positive X to the right, with up being negative Y. This is because unlike PD-Vanilla, plugdata uses a tabbed interface which means the working canvas area always needs to fill the window area.
+
+![canvas coordinate space](screenshots/canvas-overview.png)
+
+The PD Window area (border overlay) shown below is a representation of what PD-Vanilla will display when opening this patch. By using an infinite canvas model for canvas workspace, the user can freely move between PD-Vanilla and plugdata, and still have access to the size of  the PD window (important for plugin creation, or simply for making sure your patch will display correctly in PD-Vanilla:
+
+![plugdata border to pd vanilla](screenshots/canvas-overview-plugin-mode.png)
+
+:warning: PD-Vanilla will show scrollbars when canvas elements are near the edge. It is more important that plugdata saves the window size 1:1, even if PD-Vanilla chooses to display scrollbars. If this is an issue for your patch, consider adding padding to the right, bottom of that patch and testing in PD-Vanilla.
+
+When plugdata is in plugin mode, the border area is used to define the width and height of the plugin. In this way, a user can make plugin GUI's that have custom dimensions, which will be compatible with PD-Vanilla:
+
+![plugin mode pd vanilla](screenshots/plugdata-plugin-mode-pd-vanilla.png)
+
+:pushpin: Note that when plugdata is in plugin mode, there are no scrollbars, and the rest of the plugdata editor is hidden. Plugin mode is locked to the size of the PD-Vanilla window border area. And allows the plugin user to concentrate concentrate only on the plugins UI.
+
 ### 11) Side panel:
 
 The side panel allows the user to show 4 different tabs:
