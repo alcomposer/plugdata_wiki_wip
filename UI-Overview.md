@@ -103,7 +103,7 @@ To delete a palette item, again hover over the item, and a close icon will displ
 
 ### 10) Canvas:
 
-plugdata uses an infinite canvas to dispaly PD patches. The coordinate space is  centered on (0,0) origin, extending negative X to the left, positive X to the right, with up being negative Y. This is because unlike PD-Vanilla, plugdata uses a tabbed interface which means the working canvas area always needs to fill the window area.
+plugdata uses an infinite canvas to dispaly PD patches. The coordinate space is  centered on (0,0) origin which is the top-left of the PD-Vanilla patch window, extending negative X to the left, positive X to the right, with up being negative Y. This is because unlike PD-Vanilla, plugdata uses a tabbed interface which means the working canvas area always needs to fill the window area.
 
 ![canvas coordinate space](screenshots/canvas-overview.png)
 
@@ -111,7 +111,7 @@ The PD Window area (border overlay) shown below is a representation of what PD-V
 
 ![plugdata border to pd vanilla](screenshots/canvas-overview-plugin-mode.png)
 
-:warning: PD-Vanilla will show scrollbars when canvas elements are near the edge. It is more important that plugdata saves the window size 1:1, even if PD-Vanilla chooses to display scrollbars. If this is an issue for your patch, consider adding padding to the right, bottom of that patch and testing in PD-Vanilla.
+:warning: PD-Vanilla will show scrollbars when canvas elements are near the edge. It is important that plugdata saves the window size 1:1, even if PD-Vanilla chooses to display scrollbars. If this is an issue for your use case, consider adding padding to the right / bottom of the canvas dimensions.
 
 When plugdata is in plugin mode, the border area is used to define the width and height of the plugin. In this way, a user can make plugin GUI's that have custom dimensions, which will be compatible with PD-Vanilla:
 
